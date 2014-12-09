@@ -1,29 +1,20 @@
 fv-cnn-face
 ===========
 D-CNN [1] on LFW Faces.
-Run on MATLAB R2014b.
 
-Part of the data is hosted on private UMass servers.
+train_gmm.m learns a Gaussian Mixture Model from 'conv5' features.
+fv_lfw_encoding.m  encodes each LFW image as a Fisher Vector using GMM created by train_gmm
+diagMetric_train.m trains a pseudo-diagonal metric similar to Fisher Vector Faces [2].
 
-Please read the .txt files in the tools, models, cnn_models and data folders to obtain the proper data for this code to run.
+* Run on MATLAB R2014b.
 
+* Part of the data is hosted on private UMass servers.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Please read the .txt files in the tools, models, cnn_models and data folders to obtain the proper data for this code to run.
 
 
 
 1. Deep convolutional filter banks for texture recognition and segmentation. Mircea Cimpoi, Subhransu Maji, Andrea Vedaldi
 ArXiv (Submitted on 25 Nov 2014).
+
+2. Simonyan, Karen, et al. "Fisher vector faces in the wild." Proc. BMVC. Vol. 1. No. 2. 2013.
