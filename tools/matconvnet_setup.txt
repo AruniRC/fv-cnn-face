@@ -1,0 +1,8 @@
+
+COMPILE WITH GPU SUPPORT:
+
+make ENABLE_GPU=y ARCH=glnxa64 MATLABROOT=/exp/comm/matlab-R2014b CUDAROOT=/usr/local/cuda-6.5
+
+
+
+
