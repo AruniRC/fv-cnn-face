@@ -5,3 +5,4 @@ The LFW face data as a mat-file is on Weibull (UMass Vision Group server):
  The MAT-file contains all 13233 LFW images in a cell array, and their corresponding filenames.
 
 Download and copy to the ./data folder
+
