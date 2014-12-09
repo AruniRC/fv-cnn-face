@@ -1,6 +1,7 @@
 fv-cnn-face
 ===========
 D-CNN [1] on LFW Faces.
+Run on MATLAB R2014b.
 
 Part of the data is hosted on private UMass servers.
 
