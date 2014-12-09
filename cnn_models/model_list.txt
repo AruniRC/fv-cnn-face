@@ -1,0 +1,1 @@
+Download and copy the imagenet-vgg-m.mat and imagenet-vgg-verydeep-16.mat CNNs from MatConvNet to this location
