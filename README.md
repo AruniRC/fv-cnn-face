@@ -1,5 +1,10 @@
 fv-cnn-face
 ===========
+
+This repo is no longer maintained and I have discontinued this project (which was never properly completed). Code implementing Fisher Vector CNN will be linked here for completeness when/if the original authors make it available on their website.
+
+
+
 D-CNN [1] on LFW Faces.
 
 * train_gmm.m learns a Gaussian Mixture Model from 'conv5' features.
